@@ -1,8 +1,7 @@
 on:
   push:
     branches:
-      - main
-      - MR_Integration
+      - master
 name: HosPice Deployment
 jobs:
   build:
